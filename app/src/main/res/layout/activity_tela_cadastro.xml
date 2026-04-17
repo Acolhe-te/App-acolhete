@@ -16,24 +16,6 @@
 
     <Button
         android:id="@+id/button5"
-<<<<<<< Updated upstream
-        android:layout_width="257dp"
-        android:layout_height="51dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="96dp" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins_semibold"
-        android:text="Crie sua conta"
-        android:textColor="#020202"
-        android:textSize="34sp"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="40dp" />
-=======
         android:layout_width="195dp"
         android:layout_height="55dp"
         android:backgroundTint="#B8B8B8"
@@ -55,7 +37,6 @@
         android:textSize="16sp"
         tools:layout_editor_absoluteX="38dp"
         tools:layout_editor_absoluteY="106dp" />
->>>>>>> Stashed changes
 
     <TextView
         android:id="@+id/textView13"
@@ -65,66 +46,7 @@
         android:text="Nome completo"
         app:layout_constraintBottom_toTopOf="@+id/editTextText"
         app:layout_constraintStart_toStartOf="@+id/editTextText"
-<<<<<<< Updated upstream
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins"
-        android:text="CPF"
-        app:layout_constraintBottom_toTopOf="@+id/editTextText7"
-        app:layout_constraintStart_toStartOf="@+id/editTextText7"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins"
-        android:text="Celular"
-        app:layout_constraintBottom_toTopOf="@+id/editTextText8"
-        app:layout_constraintStart_toStartOf="@+id/editTextText8"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText7"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins"
-        android:text="Data de nascimento"
-        app:layout_constraintBottom_toTopOf="@+id/editTextText9"
-        app:layout_constraintStart_toStartOf="@+id/editTextText9"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText8"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins"
-        android:text="Seu email"
-        app:layout_constraintBottom_toTopOf="@+id/editTextText11"
-        app:layout_constraintStart_toStartOf="@+id/editTextText11"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText9"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins"
-        android:text="Sua senha"
-        app:layout_constraintBottom_toTopOf="@+id/editTextText10"
-        app:layout_constraintStart_toStartOf="@+id/editTextText10"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText11"
-=======
         app:layout_constraintTop_toBottomOf="@+id/button7"
->>>>>>> Stashed changes
         app:layout_constraintVertical_bias="0.5" />
 
     <EditText
@@ -136,49 +58,6 @@
         android:ems="10"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/textView15"
-<<<<<<< Updated upstream
-        app:layout_constraintStart_toStartOf="@+id/textView15"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <EditText
-        android:id="@+id/editTextText7"
-        android:layout_width="336dp"
-        android:layout_height="43dp"
-        android:background="@android:drawable/gallery_thumb"
-        android:backgroundTint="#D9D9D9"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/textView16"
-        app:layout_constraintStart_toStartOf="@+id/textView16"
-        app:layout_constraintTop_toBottomOf="@+id/textView15"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <EditText
-        android:id="@+id/editTextText8"
-        android:layout_width="336dp"
-        android:layout_height="43dp"
-        android:background="@android:drawable/gallery_thumb"
-        android:backgroundTint="#CDCDCD"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/textView17"
-        app:layout_constraintStart_toStartOf="@+id/textView17"
-        app:layout_constraintTop_toBottomOf="@+id/textView16"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <EditText
-        android:id="@+id/editTextText9"
-        android:layout_width="336dp"
-        android:layout_height="43dp"
-        android:background="@android:drawable/gallery_thumb"
-        android:backgroundTint="#CDCDCD"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/textView18"
-        app:layout_constraintStart_toStartOf="@+id/textView18"
-        app:layout_constraintTop_toBottomOf="@+id/textView17"
-=======
         app:layout_constraintEnd_toEndOf="@+id/editTextText7"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextText7"
@@ -202,7 +81,6 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextText8"
         app:layout_constraintStart_toStartOf="@+id/editTextText8"
         app:layout_constraintTop_toBottomOf="@+id/editTextText7"
->>>>>>> Stashed changes
         app:layout_constraintVertical_bias="0.5" />
 
     <EditText
@@ -213,12 +91,6 @@
         android:backgroundTint="#DBD9DB"
         android:ems="10"
         android:inputType="text"
-<<<<<<< Updated upstream
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView19"
-        app:layout_constraintVertical_bias="0.5"
-        tools:layout_editor_absoluteX="32dp" />
-=======
         app:layout_constraintBottom_toTopOf="@+id/textView20"
         app:layout_constraintEnd_toEndOf="@+id/editTextText11"
         app:layout_constraintHorizontal_bias="0.0"
@@ -299,7 +171,6 @@
         android:textColor="#666666"
         tools:layout_editor_absoluteX="305dp"
         tools:layout_editor_absoluteY="659dp" />
->>>>>>> Stashed changes
 
     <EditText
         android:id="@+id/editTextText11"
@@ -309,12 +180,6 @@
         android:backgroundTint="#CCCCCC"
         android:ems="10"
         android:inputType="text"
-<<<<<<< Updated upstream
-        app:layout_constraintBottom_toTopOf="@+id/textView19"
-        app:layout_constraintStart_toStartOf="@+id/textView19"
-        app:layout_constraintTop_toBottomOf="@+id/textView18"
-        app:layout_constraintVertical_bias="0.5" />
-=======
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintTop_toBottomOf="@+id/textView20"
         app:layout_constraintVertical_bias="0.5"
@@ -405,6 +270,5 @@
     <androidx.constraintlayout.widget.Guideline
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
->>>>>>> Stashed changes
 
 </androidx.constraintlayout.widget.ConstraintLayout>
