@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Acolhete">
         <activity
+            android:name=".TelaCadastroPessoajuridicaActivity"
+            android:exported="false" />
+        <activity
             android:name=".TelaCadastroActivity"
             android:exported="false" />
         <activity

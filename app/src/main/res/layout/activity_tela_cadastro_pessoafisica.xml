@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F7F2"
+    tools:context=".TelaCadastroActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="331dp"
+        android:layout_height="52dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Privacidade e Política de Cookies. Você poderá receber notificações por SMS e cancelar isso quando quiser."
+        android:textAlignment="center"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="822dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="244dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#FF735C"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Cadastrar conta"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="760dp" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="195dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#B8B8B8"
+        android:fontFamily="@font/poppins"
+        android:text="Empresa  "
+        android:textAlignment="viewEnd"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="217dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FF735C"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Usuário"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="336dp"
+        android:layout_height="43dp"
+        android:background="@android:drawable/gallery_thumb"
+        android:backgroundTint="#CECECE"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Celular"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="27dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/poppins"
+        android:text="CPF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="336dp"
+        android:layout_height="43dp"
+        android:background="@android:drawable/gallery_thumb"
+        android:backgroundTint="#D9D9D9"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Nome completo"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="336dp"
+        android:layout_height="43dp"
+        android:background="@android:drawable/gallery_thumb"
+        android:backgroundTint="#DBD9DB"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="336dp"
+        android:layout_height="43dp"
+        android:background="@android:drawable/gallery_thumb"
+        android:backgroundTint="#CDCDCD"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Seu email"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Data de nascimento"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Ocultar"
+        android:textColor="#666666"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="336dp"
+        android:layout_height="43dp"
+        android:background="@android:drawable/gallery_thumb"
+        android:backgroundTint="#CCCCCC"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="684dp" />
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="336dp"
+        android:layout_height="43dp"
+        android:background="@android:drawable/gallery_thumb"
+        android:backgroundTint="#CDCDCD"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Sua senha"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Crie sua conta"
+        android:textColor="#020202"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="81dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071"
+        app:srcCompat="@drawable/vector" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
