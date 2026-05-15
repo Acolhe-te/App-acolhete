@@ -12,16 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Acolhete">
         <activity
+            android:name=".TelaHomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".TelaCadastroPessoajuridicaActivity"
             android:exported="false" />
         <activity
             android:name=".TelaCadastroActivity"
             android:exported="false" />
         <activity
-            android:name=".telaLogin"
+            android:name=".TelaLogin"
             android:exported="false" />
         <activity
-            android:name=".telaInicial"
+            android:name=".TelaInicial"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F8F7F2"
-    tools:context=".telaInicial">
+    tools:context=".TelaInicial">
 
     <ImageView
         android:id="@+id/imageView"
@@ -34,13 +34,13 @@
         android:gravity="center"
         android:text="Criando novas oportunidades."
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonAcessar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/ButtonCadastrar"
         android:layout_width="293dp"
         android:layout_height="56dp"
         android:layout_marginStart="57dp"
@@ -54,21 +54,21 @@
         app:layout_constraintBottom_toTopOf="@+id/buttonSemCadastro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonAcessar"
         app:strokeWidth="1dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ButtonAcessar"
         android:layout_width="293dp"
         android:layout_height="56dp"
         android:layout_marginStart="55dp"
         android:layout_marginTop="3dp"
         android:layout_marginEnd="63dp"
         android:layout_marginBottom="2dp"
-        android:backgroundTint="#FF735C"
+        android:backgroundTint="#F47C7C"
         android:fontFamily="@font/poppins_semibold"
         android:text="Acessar conta"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonCadastrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -85,5 +85,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/ButtonCadastrar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
