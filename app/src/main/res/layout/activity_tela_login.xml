@@ -127,7 +127,7 @@
         android:layout_width="355dp"
         android:layout_height="64dp"
         android:layout_marginBottom="12dp"
-        android:backgroundTint="#FF735C"
+        android:backgroundTint="#F47C7C"
         android:fontFamily="@font/poppins_semibold"
         android:text="Acessar conta"
         android:textSize="20sp"

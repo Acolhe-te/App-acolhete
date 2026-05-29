@@ -65,7 +65,7 @@
         android:layout_marginTop="3dp"
         android:layout_marginEnd="63dp"
         android:layout_marginBottom="2dp"
-        android:backgroundTint="#FF735C"
+        android:backgroundTint="#F47C7C"
         android:fontFamily="@font/poppins_semibold"
         android:text="Acessar conta"
         app:layout_constraintBottom_toTopOf="@+id/button2"
