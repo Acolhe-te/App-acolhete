@@ -2,6 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="coffee_primary">#C67C4E</color>
+    <color name="coffee_dark">#131313</color>
+    <color name="coffee_grey">#313131</color>
+    <color name="coffee_light_grey">#989898</color>
+    <color name="coffee_bg">#F9F9F9</color>
     <color name="primary_red">#EF6362</color>
     <color name="background_grey">#F5F5F5</color>
     <color name="text_grey">#666666</color>
